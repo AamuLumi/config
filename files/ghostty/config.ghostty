@@ -1,0 +1,38 @@
+theme = Monokai Pro Octagon
+# keybind = global:ctrl+shift+option+cmd+e=toggle_quick_terminal
+keybind = global:ctrl+shift+option+e=toggle_visibility
+keybind = global:ctrl+shift+/=unbind
+
+macos-option-as-alt = left
+
+keybind = alt+left=unbind
+keybind = alt+right=unbind
+
+background-image = ./background.png
+background-opacity = 0.9
+background-image-fit = cover
+background-blur = 5
+minimum-contrast = 3
+
+cursor-click-to-move = true
+mouse-hide-while-typing = true
+
+macos-titlebar-style = hidden
+window-height = 100000
+window-width = 100000
+window-save-state = always
+
+# quick-terminal-size = 100%,100%
+# quick-terminal-position = center
+# quick-terminal-screen = main
+# quick-terminal-animation-duration = 0
+# quick-terminal-autohide = false
+
+shell-integration = zsh
+shell-integration-features = title,sudo,path
+
+notify-on-command-finish = unfocused
+notify-on-command-finish-action = no-bell,notify
+
+bell-features = no-system
+quit-after-last-window-closed = false
