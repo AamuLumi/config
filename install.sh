@@ -7,6 +7,8 @@
 ./setup/nvim_lsp.sh
 ./setup/zellij.sh
 ./setup/lazygit.sh
+./setup/zen.sh
+./setup/zotero.sh
 
 # CLI Tools
 ./setup/fzf.sh

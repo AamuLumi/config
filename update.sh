@@ -7,6 +7,8 @@
 ./update/nvim_lsp.sh
 ./update/zellij.sh
 ./update/lazygit.sh
+./update/zen.sh
+./update/zotero.sh
 
 # CLI Tools
 ./update/fzf.sh
