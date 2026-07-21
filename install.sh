@@ -6,6 +6,7 @@
 ./setup/nvim.sh
 ./setup/nvim_lsp.sh
 ./setup/zellij.sh
+./setup/lazygit.sh
 
 # CLI Tools
 ./setup/fzf.sh

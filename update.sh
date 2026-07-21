@@ -6,6 +6,7 @@
 ./update/nvim.sh
 ./update/nvim_lsp.sh
 ./update/zellij.sh
+./update/lazygit.sh
 
 # CLI Tools
 ./update/fzf.sh
