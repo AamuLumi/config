@@ -1,5 +1,9 @@
 {
   "plugins": {
+    "auto-session": {
+      "rev": "6cde3874a9283c2db55627acca5f28e4fa402320",
+      "src": "https://github.com/rmagatti/auto-session"
+    },
     "blink.cmp": {
       "rev": "4b18c32adef2898f95cdef6192cbd5796c1a332d",
       "src": "https://github.com/saghen/blink.cmp",
@@ -32,6 +36,14 @@
     "grug-far.nvim": {
       "rev": "dc4684e163971bb1f5bfb93fbd4bb3e892bf9b15",
       "src": "https://github.com/MagicDuck/grug-far.nvim"
+    },
+    "hex.nvim": {
+      "rev": "b46e63356a69e8d6f046c38a9708d55d17f15038",
+      "src": "https://github.com/RaafatTurki/hex.nvim"
+    },
+    "hexview.nvim": {
+      "rev": "413b73a2177a8d48b1af6658d2741584da209ece",
+      "src": "https://github.com/DamianVCechov/hexview.nvim"
     },
     "nvim-dap": {
       "rev": "a9d8cb68ee7184111dc66156c4a2ebabfbe01bc5",

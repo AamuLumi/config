@@ -31,6 +31,7 @@ local function save_session()
 
   if buf_count >= 1 then
     local session_file = get_session_file()
+    vim.cmd("%argdel")
     vim.cmd("mksession! " .. vim.fn.fnameescape(session_file))
     vim.cmd("mksession! " .. vim.fn.fnameescape(get_last_session_file()))
   end

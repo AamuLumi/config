@@ -4,4 +4,7 @@ require("config.keymaps")
 require("config.diagnostics")
 require("config.autocmds")
 require("config.lsp")
-require("config.session")
+-- Replaced by autosession
+-- require("config.session")
+require("config.statusline")
+require("config.ui")

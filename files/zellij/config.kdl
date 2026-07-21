@@ -5,7 +5,6 @@ keybinds {
         // bind "Alt c" { Copy; }
     }
     locked {
-        unbind "Ctrl d"
         bind "Ctrl g" { SwitchToMode "Normal"; }
         bind "Ctrl Alt Shift h" { GoToPreviousTab; }
         bind "Ctrl Alt Shift l" { GoToNextTab; }
@@ -224,7 +223,7 @@ plugins {
     compact-bar location="zellij:compact-bar"
     session-manager location="zellij:session-manager"
     welcome-screen location="zellij:session-manager" {
-        welcome_screen true
+        welcome_screen false
     }
     filepicker location="zellij:strider" {
         cwd "/"
@@ -337,7 +336,7 @@ load_plugins {
 // Choose the mode that zellij uses when starting up.
 // Default: normal
 //
-// default_mode "locked"
+default_mode "locked"
 
 // Toggle enabling the mouse mode.
 // On certain configurations, or terminals this could
